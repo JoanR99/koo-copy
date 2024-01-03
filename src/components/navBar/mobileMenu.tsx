@@ -3,8 +3,8 @@ import Box from '@mui/material/Box';
 import ListItemButton from '@mui/material/ListItemButton';
 import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 import ThemeImg from '@/assets/Img/svg/tema.svg';
-import ButtonPrimaryNavBar from '@/components/buttons/buttonPrimaryNavbar';
-import ButtonSecondaryNavBar from '@/components/buttons/buttonSecondaryNavbar';
+import ButtonPrimaryNavBar from '@/components/buttons/buttonPrimaryNavBar';
+import ButtonSecondaryNavBar from '@/components/buttons/buttonSecondaryNavBar';
 
 const UnstyledAnchor = styled('a')({
 	textDecoration: 'none',
