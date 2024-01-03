@@ -1,0 +1,67 @@
+declare module '@/components/navBar/navItems';
+declare module '@/components/navBar/sidebar';
+declare module '@/components/navBar/sidebarUser';
+declare module '@/components/navBar/sidebar';
+declare module '@/components/navBar/navBarDrawer';
+declare module '@/components/buttons/buttonPrimary';
+declare module '@/components/buttons/buttonPrimaryNavbar';
+declare module '@/components/buttons/buttonSecondary';
+declare module '@/components/buttons/buttonSecondaryNavbar';
+declare module '@/components/inputs/inputSearchNavbar';
+declare module '@/components/alert/alert';
+declare module '@/components/modal/modal';
+declare module '@/components/footer/footer';
+declare module '@/components/landingPage/tegnogoly';
+declare module '@/components/cards/assetModuleCard';
+declare module '@/components/cards/cardIcon';
+declare module '@/components/cards/factsCard';
+declare module '@/components/cards/lifecycleCard';
+declare module '@/components/cards/moduleCard';
+declare module '@/components/cards/offeringCard';
+declare module '@/components/cards/tokenStandardCard';
+declare module '@/components/cards/useCaseCard';
+declare module '@/components/cards/peerLandingCard';
+declare module '@/components/cards/securityLendingCard';
+declare module '@/components/cards/adminFeaturesCard';
+declare module '@/components/cards/techStackFourCard';
+declare module '@/components/cards/techStackSevenCard';
+declare module '@/components/cards/techStackThreeCard';
+declare module '@/components/cards/aiFactCard';
+declare module '@/components/cards/aiFeatureCard';
+declare module '@/components/cards/aiOfferingCard';
+declare module '@/components/cards/aiSolutionsCard';
+declare module '@/components/cards/aiTechnologyCard';
+declare module '@/components/icons/redDiamond';
+declare module '@/components/icons/redShapeIcon';
+declare module '@/components/icons/darkEllipse';
+declare module '@/components/icons/shapeWithoutShadow';
+declare module '@/components/landingPage/contactUs/ContactUs';
+declare module '@/components/navBar/mobileMenu';
+
+declare module '@/context/AppContextProvider';
+declare module '@/stores/index';
+declare module '@/stores/container/container';
+declare module '@/stores/Actions/Theme/storeTheme';
+declare module '@/stores/useGetNativeBalance/useGetNativeBalance';
+declare module '@/stores/useGetWalletTokenBalances/useGetWalletTokenBalances';
+
+declare module '@/routes/routes';
+declare module '@/const/countries';
+declare module '@/assets/Img/svg';
+
+declare module '@/screens/home';
+declare module '@/screens/notFoundPage';
+declare module '@/screens/smartContract';
+declare module '@/screens/assetTokenization';
+declare module '@/screens/p2pLending';
+declare module '@/screens/aiMlSolutions';
+declare module '@/screens/LandingPage';
+declare module '@/screens/blockchain';
+declare module '@/screens/NftMarketplace';
+declare module '@/screens/metaverse';
+declare module '@/screens/blockchainGame';
+declare module '@/screens/contactUsView';
+
+declare module '@/theme/theme';
+
+/// <reference types="vite/client"/>
