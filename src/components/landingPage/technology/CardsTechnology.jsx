@@ -64,7 +64,7 @@ export const CardsTechnology = () => {
 			height: '5.0625rem',
 		},
 	];
-	const ConteinerStyle = styled(Container)({
+	const ContainerStyle = styled(Container)({
 		display: 'flex',
 		alignContent: 'flex-start',
 		justifyContent: 'center',
@@ -73,7 +73,7 @@ export const CardsTechnology = () => {
 		flexShrink: 0,
 	});
 	return (
-		<ConteinerStyle
+		<ContainerStyle
 			sx={{
 				width: {
 					xs: '18.875rem',
@@ -91,6 +91,6 @@ export const CardsTechnology = () => {
 				const { img, width, height } = image;
 				return <IndividualCard image={img} width={width} height={height} />;
 			})}
-		</ConteinerStyle>
+		</ContainerStyle>
 	);
 };

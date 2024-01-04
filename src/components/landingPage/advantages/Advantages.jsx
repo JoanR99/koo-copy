@@ -1,6 +1,7 @@
 import ButtonPrimary from '@/components/buttons/buttonPrimary';
 import { Box, Container, Typography, styled } from '@mui/material';
 import { CardsLorem } from '../individualCardTechnology/CardsLorem';
+import { UnstyledLink } from '@/components/buttons/unstyledLink';
 
 const lorem = [
 	{
@@ -61,7 +62,7 @@ const lorem = [
 	{
 		title: 'IDO Development',
 		lorem:
-			'Raise capital in crypto tokens with Antier’s comprehensive IDO development services. End-to-end IDO development solutions include strategy design, whitepaper drafting, token development, token listing advisory, marketing, and support.',
+			'Raise capital in crypto tokens with Koolinart’s comprehensive IDO development services. End-to-end IDO development solutions include strategy design, whitepaper drafting, token development, token listing advisory, marketing, and support.',
 	},
 	{
 		title: 'OTC Trading',
@@ -126,7 +127,9 @@ export const Advantages = (props) => {
 					return <CardsLorem title={title} lorem={lorem} key={title} />;
 				})}
 			</Box>
-			<ButtonPrimary>Contac Us</ButtonPrimary>
+			<ButtonPrimary>
+				<UnstyledLink to="/contact">Contact us</UnstyledLink>
+			</ButtonPrimary>
 		</ContainerStyle>
 	);
 };

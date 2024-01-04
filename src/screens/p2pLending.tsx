@@ -237,7 +237,7 @@ export default function P2pLending() {
 						>
 							Through meticulous research and a design-focused methodology, we
 							have crafted a pioneering path in the realm of P2P lending
-							software development. This journeyhas culminated in the inception
+							software development. This journey has culminated in the inception
 							of our cutting-edge white label P2P lending platform development,
 							bolstered by an array of robust features.
 						</Typography>
@@ -416,7 +416,7 @@ export default function P2pLending() {
 						>
 							Elevate your confidence in P2P lending with our advanced security
 							features. Our software is fortified with state-of-the-art measures
-							toensure the safety and integrity of every transaction and user
+							to ensure the safety and integrity of every transaction and user
 							interaction
 						</Typography>
 					</Stack>

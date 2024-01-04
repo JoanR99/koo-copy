@@ -52,7 +52,7 @@ export default function Protocol() {
 				>
 					<CardsProtocol
 						title="Business Logic Customization"
-						description="Antier’s expertise lies in tailoring the blockchain protocol to meet your specific business’s logic requirements. We design the blockchain architecture, develop smart contracts, configure access controls, integrate with external systems, & provide ongoing support to create a blockchain solution that aligns with our client’s business logic."
+						description="Koolinart’s expertise lies in tailoring the blockchain protocol to meet your specific business’s logic requirements. We design the blockchain architecture, develop smart contracts, configure access controls, integrate with external systems, & provide ongoing support to create a blockchain solution that aligns with our client’s business logic."
 					/>
 				</Box>
 				<Box
@@ -134,7 +134,7 @@ export default function Protocol() {
 				>
 					<CardsProtocol
 						title="Chaincode Development"
-						description="Create secure & robust chain code solutions to bring your blockchain vision to life. With Antier, you can ensure the integrity and accuracy of the chain code enabling seamless automation, transparency, & trust in your operations. Be it Ethereum or Hyperledger, we develop and deploy efficient smart contracts on various blockchain platforms as per the requirements of your business."
+						description="Create secure & robust chain code solutions to bring your blockchain vision to life. With Koolinart, you can ensure the integrity and accuracy of the chain code enabling seamless automation, transparency, & trust in your operations. Be it Ethereum or Hyperledger, we develop and deploy efficient smart contracts on various blockchain platforms as per the requirements of your business."
 					/>
 				</Box>
 				<Box

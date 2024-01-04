@@ -3,11 +3,7 @@ import { Card, CardMedia, Typography } from '@mui/material';
 
 export const Empresa = (props) => {
 	const image = props.image;
-	const CardImageStyle = styled(CardMedia)({
-		component: { image },
-		width: '5rem',
-		height: '5rem',
-	});
+
 	return (
 		<Card
 			sx={{
@@ -22,12 +18,21 @@ export const Empresa = (props) => {
 				borderWidth: '2px',
 				borderStyle: 'solid',
 				borderColor: (theme) => theme.palette.text.primary,
+				bgcolor: '#EAE8E8',
 			}}
 		>
-			<CardImageStyle image={image} />
+			<CardMedia
+				component="img"
+				src={image}
+				alt={props.title}
+				sx={{
+					width: 'auto',
+					height: 'auto',
+				}}
+			/>
 			<Typography
 				sx={{
-					color: (theme) => theme.palette.text.primary,
+					color: '#303030',
 					fontFamily: 'Inter',
 					fontSize: '1.25rem',
 					fontStyle: 'normal',

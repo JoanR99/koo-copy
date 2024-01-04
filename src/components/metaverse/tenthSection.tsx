@@ -1,5 +1,6 @@
-import { Box, Button, Typography } from '@mui/material';
+import { Box, Button, CardMedia, Typography } from '@mui/material';
 import ButtonPrimary from '@/components/buttons/buttonPrimary';
+import Rec from '@/assets/Img/rec.png';
 
 export default function TenthSection() {
 	return (
@@ -20,13 +21,17 @@ export default function TenthSection() {
 					gap: '72px',
 				}}
 			>
-				<Box
+				<CardMedia
+					component="img"
+					src={Rec}
+					alt="rec"
 					sx={{
 						width: '154px',
 						height: '134px',
-						background: (theme) => theme.palette.background.default,
+
+						borderRadius: '20px',
 					}}
-				></Box>
+				/>
 				<Box
 					sx={{
 						width: '100%',

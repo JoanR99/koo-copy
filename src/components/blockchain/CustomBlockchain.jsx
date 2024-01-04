@@ -66,7 +66,7 @@ export default function CustomBlockchain() {
 							The global blockchain market, which stands at nearly USD 17
 							billion, is anticipated to reach USD 163.83 billion by 2029. The
 							enormous growth potential of the market resonates across
-							businesses participating in the market.At Antier, we offer
+							businesses participating in the market.At Koolinart, we offer
 							end-to-end custom Blockchain development and consulting services
 							to help businesses tap into the burgeoning blockchain market and
 							fuel their growth. Our seasoned cross-functional blockchain

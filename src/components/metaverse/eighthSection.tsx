@@ -68,7 +68,7 @@ export default function EighthSection() {
 									},
 									height: 'auto',
 									background:
-										'linear-gradient(0deg, #595959 0%, rgba(53, 53, 53, 0.91) 100%)',
+										'linear-gradient(0deg, #595959 0%, rgba(53, 53, 53, 0) 100%)',
 									borderRadius: '20px',
 									px: '32px',
 									py: '24px',
@@ -78,15 +78,9 @@ export default function EighthSection() {
 									alignItems: 'center',
 									textAlign: 'center',
 									color: '#EAE8E8',
+									pt: '100px',
 								}}
 							>
-								<Box
-									sx={{
-										width: '60px',
-										height: '60px',
-										background: '#EAE8E8',
-									}}
-								></Box>
 								<Typography
 									sx={{
 										fontSize: '16px !important',

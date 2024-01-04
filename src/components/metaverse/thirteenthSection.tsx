@@ -1,4 +1,4 @@
-import { Box, Container, Typography } from '@mui/material';
+import { Box, CardMedia, Container, Typography } from '@mui/material';
 import { thirteenData } from '@/data/metaverse';
 
 export default function ThirteenthSection() {
@@ -67,27 +67,28 @@ export default function ThirteenthSection() {
 										xs: '100%',
 										md: '275px',
 									},
-									height: '335px',
+									minHeight: '335px',
 									background:
-										'linear-gradient(153deg, #C02327 58.4%, #353535 98.49%);',
+										'linear-gradient(153deg, #C02327 58.4%, #353535 98.49%)',
 									borderRadius: '20px',
 									px: '20px',
-									py: '12px',
-									pt: '40px',
+									py: '20px',
+									pt: '80px',
 									display: 'flex',
 									flexDirection: 'column',
 									gap: '16px',
 									alignItems: 'center',
 								}}
 							>
-								<Box
+								<CardMedia
+									component="img"
+									src={card.image}
+									alt={card.title}
 									sx={{
 										width: '50px',
 										height: '50px',
-										borderRadius: '25px',
-										background: '#EAE8E8',
 									}}
-								></Box>
+								/>
 								<Typography
 									sx={{
 										fontSize: '24px !important',

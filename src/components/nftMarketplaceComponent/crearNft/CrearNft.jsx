@@ -17,7 +17,7 @@ export const CrearNft = () => {
 		lineHeight: 'normal',
 	});
 	return (
-		<Container sx={{}}>
+		<Container sx={{ py: '40px' }}>
 			<Stack
 				spacing="30px"
 				sx={{

@@ -13,7 +13,7 @@ import {
 	TextField,
 } from '@mui/material';
 import { useFormik } from 'formik';
-import { contanctUs } from '@/schemas';
+import { contactUs } from '@/schemas';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import TelegramIcon from '@mui/icons-material/Telegram';
@@ -45,7 +45,7 @@ export default function ContactUsForm() {
 			country: '',
 			message: '',
 		},
-		validationSchema: contanctUs,
+		validationSchema: contactUs,
 		onSubmit: async (values, { resetForm }) => {
 			try {
 				setLoading(true);
@@ -195,13 +195,16 @@ export default function ContactUsForm() {
 								id="fullname"
 								name="fullname"
 								autoComplete="fullname"
+								sx={{
+									color: '#303030',
+								}}
 							/>
 							{formik.touched.fullname && (
 								<FormHelperText
-									error
 									id="fullname-error"
 									sx={{
 										textAlign: 'center',
+										color: 'white',
 									}}
 								>
 									{formik.errors.fullname}
@@ -218,13 +221,16 @@ export default function ContactUsForm() {
 								id="email"
 								name="email"
 								autoComplete="email"
+								sx={{
+									color: '#303030',
+								}}
 							/>
 							{formik.touched.email && (
 								<FormHelperText
-									error
 									id="email-error"
 									sx={{
 										textAlign: 'center',
+										color: 'white',
 									}}
 								>
 									{formik.errors.email}
@@ -247,13 +253,16 @@ export default function ContactUsForm() {
 								inputProps={{
 									type: 'number',
 								}}
+								sx={{
+									color: '#303030',
+								}}
 							/>
 							{formik.touched.phonenumber && (
 								<FormHelperText
-									error
 									id="phonenumber-error"
 									sx={{
 										textAlign: 'center',
+										color: 'white',
 									}}
 								>
 									{formik.errors.phonenumber}
@@ -382,13 +391,16 @@ export default function ContactUsForm() {
 								name="message"
 								multiline
 								rows={10}
+								sx={{
+									color: '#303030',
+								}}
 							/>
 							{formik.touched.message && (
 								<FormHelperText
-									error
 									id="message-error"
 									sx={{
 										textAlign: 'center',
+										color: 'white',
 									}}
 								>
 									{formik.errors.message}

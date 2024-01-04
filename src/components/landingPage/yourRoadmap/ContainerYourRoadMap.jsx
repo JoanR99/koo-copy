@@ -146,7 +146,7 @@ export const ContainerYourRoadMap = () => {
 
 					justifyContent: {
 						xs: 'center',
-						ms: 'flex-end',
+						sm: 'flex-end',
 						md: 'flex-end',
 						lg: 'flex-end',
 					},
@@ -187,7 +187,7 @@ export const ContainerYourRoadMap = () => {
 						},
 					}}
 				>
-					Pilot Blockchain Use-case and Assess Solution
+					Pilot Blockchain Use-case and Assets Solution
 				</TypographyTitle>
 				<TypographyLorem
 					sx={{
@@ -197,7 +197,7 @@ export const ContainerYourRoadMap = () => {
 					}}
 				>
 					Brainstorm, design and implement proposed blockchain use cases. Pilot
-					with client and assess the solution.
+					with client and assets the solution.
 				</TypographyLorem>
 			</Box2>
 
@@ -303,7 +303,7 @@ export const ContainerYourRoadMap = () => {
 						},
 					}}
 				>
-					Integrate Partners and Networ
+					Integrate Partners and Network
 				</TypographyTitle>
 				<TypographyLorem
 					sx={{

@@ -5,31 +5,20 @@ export const CardPartners = (props) => {
 		display: 'flex',
 		alignItems: 'center',
 		justifyContent: 'center',
-		gap: '.5rem',
-		padding: '4rem',
+		padding: '5rem',
 	});
 	return (
 		<BoxContainer>
 			<CardMedia
-				image={props.image}
+				component="img"
+				src={props.image}
+				alt={props.title}
 				sx={{
-					width: '5rem',
-					height: '5rem',
-					fill: '#FFF',
+					objectFit: 'cover',
+					width: 'auto',
+					height: 'auto',
 				}}
 			/>
-			<Typography
-				sx={{
-					color: '#FFF',
-					fontFamily: 'Inter',
-					fontSize: '1.25rem',
-					fontStyle: 'normal',
-					fontWeight: 600,
-					lineHeight: 'normal',
-				}}
-			>
-				{props.title}
-			</Typography>
 		</BoxContainer>
 	);
 };

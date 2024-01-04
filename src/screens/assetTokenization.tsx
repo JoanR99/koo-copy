@@ -142,10 +142,10 @@ export default function AssetTokenization() {
 							opportunities for investors, businesses, and asset owners.
 							<br />
 							<br />
-							Antier is the best asset tokenization company that takes into
+							Koolinart is the best asset tokenization company that takes into
 							account every small detail to build the best solutions. As an
-							experienced tokenization development company, Antier has expertise
-							in developing top-notch solutions for diverse clients
+							experienced tokenization development company, Koolinart has
+							expertise in developing top-notch solutions for diverse clients
 						</Typography>
 						<ButtonPrimary>Request a Free Demo</ButtonPrimary>
 					</Stack>
@@ -200,16 +200,17 @@ export default function AssetTokenization() {
 							>
 								It’s the right time to venture into tokenization platform
 								development! Embrace the future of asset ownership and financial
-								innovation with Antier. Antier’s asset tokenization development
-								services are designed to unlock the untapped potential of your
-								assets, enabling you to raise capital, enhance liquidity, and
-								engage a broader investor base. Partner with Antier to leverage
-								the power of digital asset tokenization platform development.
+								innovation with Koolinart. Koolinart’s asset tokenization
+								development services are designed to unlock the untapped
+								potential of your assets, enabling you to raise capital, enhance
+								liquidity, and engage a broader investor base. Partner with
+								Koolinart to leverage the power of digital asset tokenization
+								platform development.
 								<br />
 								<br />
 								Whether you are looking to tokenize artwork, collectibles,
 								commodities, debt instruments, intellectual property, stocks and
-								equities, investment funds or real estate, Antier got you
+								equities, investment funds or real estate, Koolinart got you
 								covered! The best asset tokenization company streamlines the
 								whole development process to provide you with impeccable
 								results.
@@ -330,9 +331,9 @@ export default function AssetTokenization() {
 							>
 								The asset tokenization ecosystem comprises specific modules that
 								are vital for ensuring success. Real-world asset tokenization
-								system developed by Antier, the best asset tokenization services
-								provider, is underpinned by the following to achieve world-class
-								user experience.
+								system developed by Koolinart, the best asset tokenization
+								services provider, is underpinned by the following to achieve
+								world-class user experience.
 							</Typography>
 						</Stack>
 

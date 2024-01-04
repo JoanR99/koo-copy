@@ -128,7 +128,7 @@ export default function SecondSection(): JSX.Element {
 						</Typography>
 					</Box>
 					<Box sx={{ display: 'flex', alignItems: 'flex-start', gap: '8px' }}>
-						<ButtonSecondary>Conect us</ButtonSecondary>
+						<ButtonSecondary>Connect us</ButtonSecondary>
 						<ButtonSecondary>Talk to our experts</ButtonSecondary>
 					</Box>
 				</Box>

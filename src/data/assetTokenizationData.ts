@@ -99,17 +99,17 @@ export const assetModules = [
 	{
 		title: 'Access to Global Markets',
 		description:
-			'Asset tokenization enables fractional ownership, allowing businesses to divide assets into smaller, tradable tokens. This increased liquidity opens up opportunities for a broader investor base and facilitates more efficient trading.',
+			'Digital asset tokenization breaks down geographical barriers, enabling businesses to reach a global investor audience. It promotes cross-border transactions and provides exposure to a wider range of potential investors.',
 	},
 	{
 		title: 'Improved Efficiency',
 		description:
-			'Asset tokenization enables fractional ownership, allowing businesses to divide assets into smaller, tradable tokens. This increased liquidity opens up opportunities for a broader investor base and facilitates more efficient trading.',
+			'Traditional asset ownership and transfer processes can be time-consuming and costly. Asset tokenization comes to the rescue. It streamlines these processes, reducing administrative overheads and improving overall operational efficiency.',
 	},
 	{
 		title: 'Increased Transparency',
 		description:
-			'Asset tokenization enables fractional ownership, allowing businesses to divide assets into smaller, tradable tokens. This increased liquidity opens up opportunities for a broader investor base and facilitates more efficient trading.',
+			'Blockchain-based tokenization ensures transparent and immutable records of ownership and transactions. This transparency enhances trust and accountability, which helps in attracting investors and reducing the risk of fraud or manipulation.',
 	},
 	{
 		title: 'Fractional Ownership Opportunities',

@@ -8,29 +8,29 @@ import { CompraSegura } from '../components/nftMarketplaceComponent/compraSegura
 import { AboutUs } from '../components/nftMarketplaceComponent/aboutUs/AboutUs';
 
 export default function NftMarketplace() {
-  return (
-    <Box
-      sx={{
-        display: 'flex',
-        flexDirection: 'column',
-        justifyContent: 'center',
-        width: '100%',
-        alignItems: 'center',
-        gap: '5rem',
-        background: (theme) => theme.palette.background.default,
-        color: (theme) => theme.palette.text.primary,
-        overflow: 'hidden',
-        py: '40px',
-      }}
-    >
-      <MarketPlace />
-      <AboutUs />
-      <TiposArte />
-      {/* <ConnectOur /> */}
-      <ProcesoCompra />
-      <ComisionesTarifas />
-      <CrearNft />
-      <CompraSegura />
-    </Box>
-  );
+	return (
+		<Box
+			sx={{
+				display: 'flex',
+				flexDirection: 'column',
+				justifyContent: 'center',
+				width: '100%',
+				alignItems: 'center',
+				gap: '5rem',
+				background: (theme) => theme.palette.background.default,
+				color: (theme) => theme.palette.text.primary,
+				overflow: 'hidden',
+				py: '40px',
+			}}
+		>
+			<MarketPlace />
+			<AboutUs />
+			<TiposArte />
+			{/* <ConnectOur /> */}
+			<ProcesoCompra />
+
+			<CrearNft />
+			<CompraSegura />
+		</Box>
+	);
 }

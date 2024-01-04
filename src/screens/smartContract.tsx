@@ -249,9 +249,9 @@ export default function SmartContract() {
 									textAlign: 'center',
 								}}
 							>
-								Being a leading smart contract development company, Antier
-								Solutions helps enterprises achieve business automation
-								byproviding them with advanced smart contract development
+								Being a leading smart contract development company, Koolinart
+								Solutions helps enterprises achieve business automation by
+								providing them with advanced smart contract development
 								services.
 							</Typography>
 						</Stack>
@@ -332,7 +332,7 @@ export default function SmartContract() {
 								is expected to grow at a CAGR of 46.0% from 2023 to 2030. So it
 								is crunch time for finance experts to make hefty investments in
 								DeFi smart contract development. <br /> <br /> Being a leading
-								DeFi smart contract development company, Antier Solutions
+								DeFi smart contract development company, Koolinart Solutions
 								provides DeFi smart contract development services to financial
 								institutions to help them improve data accuracy, reduce
 								paperwork, strengthen security, and faster transaction
@@ -393,6 +393,7 @@ export default function SmartContract() {
 									title={item.title}
 									description={item.description}
 									maxWidth={item.maxWidth}
+									img={item.img}
 								/>
 							))}
 						</Box>
@@ -444,7 +445,7 @@ export default function SmartContract() {
 							>
 								The self-executing nature of smart contracts makes them a
 								powerful tool for diverse applications across multiple
-								industries. Antier Solutions, as a trustedsmart contract
+								industries. Koolinart Solutions, as a trusted smart contract
 								development company, has served worldwide clientele from diverse
 								industry verticals for the past few years.
 							</Typography>
@@ -540,6 +541,7 @@ export default function SmartContract() {
 									title={item.title}
 									description={item.description}
 									maxWidth={item.maxWidth}
+									img={item.img}
 								/>
 							))}
 						</Box>
@@ -557,7 +559,7 @@ export default function SmartContract() {
 									lineHeight: { sx: 'normal' },
 								}}
 							>
-								Develop smart contracts on your favourite Blockchain platform
+								Develop smart contracts on your favorite Blockchain platform
 								today
 							</Typography>
 							<ButtonSecondary>Contact our experts</ButtonSecondary>
@@ -967,7 +969,7 @@ export default function SmartContract() {
 													lineHeight: { sx: 'normal' },
 												}}
 											>
-												Implement proposed smart contract solutiont
+												Implement proposed smart contract solution
 											</Typography>
 										</Stack>
 										<Stack direction="row" spacing="10px" alignItems="center">

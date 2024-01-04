@@ -1,39 +1,47 @@
 import { Box, styled } from '@mui/material';
 import img from '../../../assets/Img/tegImg1.png';
 import { CardPartners } from '../individualCardTechnology/CardPartners';
+import Banxa from '@/assets/Img/banxa-logo.png';
+import Skoda from '@/assets/Img/skoda.png';
+import Challengy from '@/assets/Img/challengy.png';
+import Hacken from '@/assets/Img/hacken.png';
+import TechRate from '@/assets/Img/techrate.png';
+import Mercuryo from '@/assets/Img/mercurio.png';
+import Zeeve from '@/assets/Img/zeeve.png';
+import Web3 from '@/assets/Img/web3auth-logo.svg';
 
 const cards = [
 	{
-		img: img,
-		title: 'Empresa',
+		img: Banxa,
+		title: 'Banxa',
 	},
 	{
-		img: img,
-		title: 'Empresa',
+		img: Skoda,
+		title: 'Skoda',
 	},
 	{
-		img: img,
-		title: 'Empresa',
+		img: Challengy,
+		title: 'Challengy',
 	},
 	{
-		img: img,
-		title: 'Empresa',
+		img: Hacken,
+		title: 'Hacken',
 	},
 	{
-		img: img,
-		title: 'Empresa',
+		img: Web3,
+		title: 'Web3Auth',
 	},
 	{
-		img: img,
-		title: 'Empresa',
+		img: TechRate,
+		title: 'Tech Rate',
 	},
 	{
-		img: img,
-		title: 'Empresa',
+		img: Mercuryo,
+		title: 'Mercuryo',
 	},
 	{
-		img: img,
-		title: 'Empresa',
+		img: Zeeve,
+		title: 'Zeeve',
 	},
 ];
 const BoxStyle = styled(Box)({

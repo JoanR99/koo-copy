@@ -1,12 +1,12 @@
 import Stack from '@mui/material/Stack';
 import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
-import Ellipse from '@/assets/Img/svg/ellipse.svg';
 
 type FactsCardProps = {
 	title: string;
 	description: string;
 	maxWidth: string;
+	img: string;
 };
 
 export default function FactsCard(props: FactsCardProps) {
@@ -21,7 +21,7 @@ export default function FactsCard(props: FactsCardProps) {
 			}}
 		>
 			<Box>
-				<img src={Ellipse} alt="ellipse" />
+				<img src={props.img} alt={props.title} />
 			</Box>
 
 			<Stack spacing="5px">

@@ -1,5 +1,5 @@
 import { Advantages } from '@/components/landingPage/advantages/Advantages';
-import { BlockChainSolution } from '@/components/landingPage/blockChain/BlockChaninSolution';
+import { BlockChainSolution } from '@/components/landingPage/blockChain/BlockChainSolution';
 import { CaseStudies } from '@/components/landingPage/caseStudio/CaseStudies';
 import { OurClients } from '@/components/landingPage/ourClient/OurClients';
 import ContactUs from '@/components/landingPage/contactUs/ContactUs';
@@ -32,7 +32,7 @@ export default function LandingPage() {
 			<YourRoadMap title="Your roadmap to capitalize on the blockchain opportunity" />
 			<CaseStudies title="Case Studies" />
 			<PartnersBlockChain />
-			<OurClients title="Our Clients" />
+			<OurClients title="Using Blockchain Solutions" />
 			<ContactUs />
 		</Box>
 	);

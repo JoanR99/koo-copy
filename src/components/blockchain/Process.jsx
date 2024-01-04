@@ -128,7 +128,7 @@ export default function Process() {
 							description="Deploying the Blockchain application on the chosen network."
 						/>
 						<CardsProcess
-							title="BLaunch and Maintenance"
+							title="Launch and Maintenance"
 							description="Launching the Blockchain application and provide ongoing maintenance and support to address issues and implement updates."
 						/>
 					</Box>

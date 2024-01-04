@@ -23,7 +23,7 @@ export const CardBlockChain = (props) => {
 		background: '#595959',
 		boxShadow: '2px 20px 20px 0px rgba(0, 0, 0, 0.2)',
 	};
-	const CardConteiner = styled(CardContent)({
+	const CardContainer = styled(CardContent)({
 		display: 'flex',
 		flexDirection: 'column',
 		justifyContent: 'center',
@@ -70,7 +70,7 @@ export const CardBlockChain = (props) => {
 					},
 				}}
 			/>
-			<CardConteiner>
+			<CardContainer>
 				<Typography
 					variant="h4"
 					sx={{
@@ -111,7 +111,7 @@ export const CardBlockChain = (props) => {
 				>
 					{lorem}
 				</Typography>
-			</CardConteiner>
+			</CardContainer>
 		</Box>
 	);
 };

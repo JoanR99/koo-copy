@@ -71,10 +71,8 @@ export const TransitionToWeb = () => {
 					variant="h1"
 					sx={{
 						fontSize: {
-							xs: '1.8rem !important',
-							sm: '2rem !important',
-							md: '2.3rem !important',
-							lg: '2.5rem !important',
+							xs: '1.8rem ',
+							sm: '2rem ',
 						},
 					}}
 				>
@@ -83,24 +81,39 @@ export const TransitionToWeb = () => {
 				<TypographyStyled
 					variant="h1"
 					sx={{
-						// fontSize: '2.5rem !important',
 						fontSize: {
-							xs: '1.8rem !important',
-							sm: '2rem !important',
-							md: '2.3rem !important',
-							lg: '2.5rem !important',
+							xs: '1.8rem ',
+							sm: '2rem ',
 						},
 					}}
 				>
 					Embrace Transformation
 				</TypographyStyled>
-				<TypographyLorem>
+				<TypographyLorem
+					sx={{
+						fontSize: {
+							xs: '16px',
+						},
+						fontWeight: {
+							xs: '500',
+						},
+					}}
+				>
 					Unearth the blockchain potential to overhaul enterprise &
-					institutional processes. Antier, one of world’s pioneering blockchain
-					development companies harnesses the power of decentralization and
-					smart contracts to build scalable, asset agnostic applications.
+					institutional processes. Koolinart, with years of experience in
+					Blockchain, harnesses the power of decentralization and smart
+					contracts to build scalable, asset agnostic applications.
 				</TypographyLorem>
-				<TypographyLorem>
+				<TypographyLorem
+					sx={{
+						fontSize: {
+							xs: '16px',
+						},
+						fontWeight: {
+							xs: '500',
+						},
+					}}
+				>
 					Our subject matter experts provide enterprise-grade blockchain app
 					development services ensuring transparency & immutability over a
 					distributed ledger. Ask more about our expertise in DeFi 2.0,

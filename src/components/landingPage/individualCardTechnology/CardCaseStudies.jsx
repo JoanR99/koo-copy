@@ -29,7 +29,6 @@ export const CardCaseStudies = (props) => {
 				display: 'flex',
 				padding: '1rem 1rem 3rem 1rem',
 				flexDirection: 'column',
-				justifyContent: 'center',
 				alignItems: 'center',
 				gap: '32px',
 				borderRadius: '1.25rem',

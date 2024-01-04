@@ -1,5 +1,5 @@
 import { Container, Typography } from '@mui/material';
-import { ConteinerOurClient } from './ConteinerOurClient';
+import { ContainerOurClient } from './ContainerOurClient';
 
 export const OurClients = (props) => {
 	return (
@@ -9,6 +9,10 @@ export const OurClients = (props) => {
 				flexDirection: 'column',
 				alignItems: 'center',
 				gap: '3rem',
+				py: {
+					xs: '40px',
+					md: '80px',
+				},
 			}}
 		>
 			<Typography
@@ -26,7 +30,7 @@ export const OurClients = (props) => {
 			>
 				{props.title}
 			</Typography>
-			<ConteinerOurClient />
+			<ContainerOurClient />
 		</Container>
 	);
 };

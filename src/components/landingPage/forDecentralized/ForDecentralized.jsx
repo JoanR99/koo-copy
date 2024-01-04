@@ -80,7 +80,6 @@ export const ForDecentralized = () => {
 						sx={{
 							color: '#EAE8E8',
 							fontFamily: 'Inter',
-							width: '32rem',
 							alignItems: 'center',
 							justifyContent: 'center',
 							fontStyle: 'normal',
@@ -107,7 +106,6 @@ export const ForDecentralized = () => {
 					<Typography
 						sx={{
 							color: '#EAE8E8',
-							width: '28.125rem',
 							fontFamily: 'Inter',
 							// fontSize: '1.25rem',
 							fontStyle: 'normal',

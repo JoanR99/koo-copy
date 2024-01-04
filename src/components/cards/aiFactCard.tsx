@@ -1,11 +1,11 @@
 import Card from '@mui/material/Card';
 import Stack from '@mui/material/Stack';
 import Typography from '@mui/material/Typography';
-import Ellipse from '@/assets/Img/svg/ellipse.svg';
 import Box from '@mui/material/Box';
 
 type AiFactCardProps = {
 	title: string;
+	img: string;
 };
 
 export default function AiFactCard(props: AiFactCardProps) {
@@ -26,7 +26,7 @@ export default function AiFactCard(props: AiFactCardProps) {
 						maxWidth: '55px',
 					}}
 				>
-					<img src={Ellipse} alt="ellipse" />
+					<img src={props.img} alt={props.title} />
 				</Box>
 				<Typography
 					sx={{

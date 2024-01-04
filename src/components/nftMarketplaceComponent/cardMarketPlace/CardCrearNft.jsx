@@ -17,7 +17,7 @@ export const CardCrearNft = () => {
 		alignItems: 'center',
 		gap: '0.975rem',
 	});
-	const TypographyTltleStyle = styled(Typography)({
+	const TypographyTitleStyle = styled(Typography)({
 		color: '#C02327',
 		fontFamily: 'Poppins',
 		fontSize: '25px !important ',
@@ -84,7 +84,7 @@ export const CardCrearNft = () => {
 					<CardMediaStyle image={eclipce} component="eclipse">
 						<TypographyNumberStyle>1</TypographyNumberStyle>
 					</CardMediaStyle>
-					<TypographyTltleStyle>Select a collection</TypographyTltleStyle>
+					<TypographyTitleStyle>Select a collection</TypographyTitleStyle>
 					<TypographyTextStyle>
 						Select the collection where you want to to host your NFT.
 					</TypographyTextStyle>
@@ -101,7 +101,7 @@ export const CardCrearNft = () => {
 					<CardMediaStyle image={eclipce} component="eclipse">
 						<TypographyNumberStyle>2</TypographyNumberStyle>
 					</CardMediaStyle>
-					<TypographyTltleStyle>Upload your NFT</TypographyTltleStyle>
+					<TypographyTitleStyle>Upload your NFT</TypographyTitleStyle>
 					<TypographyTextStyle>
 						Select the collection where you want to to host your NFT.
 					</TypographyTextStyle>
@@ -118,7 +118,7 @@ export const CardCrearNft = () => {
 					<CardMediaStyle image={eclipce} component="eclipse">
 						<TypographyNumberStyle>3</TypographyNumberStyle>
 					</CardMediaStyle>
-					<TypographyTltleStyle>Mintea</TypographyTltleStyle>
+					<TypographyTitleStyle>Minting</TypographyTitleStyle>
 					<TypographyTextStyle>
 						Select the collection where you want to to host your NFT.
 					</TypographyTextStyle>

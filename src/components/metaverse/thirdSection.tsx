@@ -130,7 +130,7 @@ export default function ThirdSection(): JSX.Element {
 							with your business idea.
 						</Typography>
 					</Box>
-					<ButtonSecondary>Conect us</ButtonSecondary>
+					<ButtonSecondary>Connect us</ButtonSecondary>
 				</Box>
 			</Box>
 		</Box>

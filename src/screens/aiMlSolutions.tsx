@@ -28,10 +28,93 @@ import ButtonPrimary from '@/components/buttons/buttonPrimary';
 import Check from '@/assets/Img/Check.png';
 import { UnstyledLink } from '@/components/buttons/unstyledLink';
 import AiBackgroundImg from '@/assets/Img/ai_background.jpeg';
+import ReactCarousel from 'react-multi-carousel';
+import 'react-multi-carousel/lib/styles.css';
+import RightArrow from '@/assets/Img/svg/right_arrow.svg';
+import LeftArrow from '@/assets/Img/svg/left_arrow.svg';
+
+const responsive = {
+	desktop: {
+		breakpoint: { max: 3000, min: 1300 },
+		items: 4,
+	},
+	laptop: {
+		breakpoint: { max: 1300, min: 1020 },
+		items: 3,
+	},
+	tablet: {
+		breakpoint: { max: 1020, min: 664 },
+		items: 2,
+	},
+	mobile: {
+		breakpoint: { max: 464, min: 0 },
+		items: 1,
+	},
+};
 
 const ArrowStickImage = styled('img')({
 	height: '220px',
 });
+
+const ButtonGroup = ({ next, previous, goToSlide, ...rest }: any) => {
+	const {
+		carouselState: { currentSlide },
+	} = rest;
+	return (
+		<Box
+			sx={{
+				position: 'absolute',
+				width: {
+					xs: 'calc(100% + 100px)',
+					md: 'calc(100% + 130px)',
+				},
+				top: '40%',
+				left: {
+					xs: '-50px',
+					md: '-80px',
+				},
+				display: 'flex',
+				justifyContent: 'space-between',
+				alignItems: 'center',
+
+				height: '100px',
+			}}
+		>
+			<button
+				onClick={() => previous()}
+				style={{
+					backgroundColor: 'transparent',
+					border: 'none',
+				}}
+			>
+				<img
+					src={LeftArrow}
+					alt="left arrow"
+					style={{
+						width: '50px',
+						height: '50px',
+					}}
+				/>
+			</button>
+			<button
+				onClick={() => next()}
+				style={{
+					backgroundColor: 'transparent',
+					border: 'none',
+				}}
+			>
+				<img
+					src={RightArrow}
+					alt="right arrow"
+					style={{
+						width: '50px',
+						height: '50px',
+					}}
+				/>
+			</button>
+		</Box>
+	);
+};
 
 export default function AiMlSolutions() {
 	const theme = useTheme();
@@ -153,6 +236,7 @@ export default function AiMlSolutions() {
 								key={item.title}
 								title={item.title}
 								description={item.description}
+								img={item.img}
 							/>
 						))}
 					</Box>
@@ -221,7 +305,7 @@ export default function AiMlSolutions() {
 						}}
 					>
 						{facts.map((item) => (
-							<AiFactCard key={item.title} title={item.title} />
+							<AiFactCard key={item.title} title={item.title} img={item.img} />
 						))}
 					</Box>
 				</Stack>
@@ -272,22 +356,38 @@ export default function AiMlSolutions() {
 
 						<Box
 							sx={{
-								display: 'grid',
-								gridTemplateColumns: {
-									xs: '1fr',
-									sm: '1fr 1fr',
-									md: '1fr 1fr 1fr 1fr',
-								},
-								gap: '32px',
+								width: '80vw',
+								display: 'flex',
+								flexDirection: 'column',
+								position: 'relative',
 							}}
 						>
-							{aiFeatures.map((item) => (
-								<AiFeatureCard
-									key={item.title}
-									title={item.title}
-									description={item.description}
-								/>
-							))}
+							<ReactCarousel
+								responsive={responsive}
+								infinite={true}
+								renderButtonGroupOutside={true}
+								customButtonGroup={<ButtonGroup />}
+								arrows={false}
+							>
+								{aiFeatures.map((item) => (
+									<Box
+										sx={{
+											py: '10px',
+											px: {
+												xs: '10px',
+												lg: '0px',
+											},
+											height: '100%',
+										}}
+									>
+										<AiFeatureCard
+											key={item.title}
+											title={item.title}
+											description={item.description}
+										/>
+									</Box>
+								))}
+							</ReactCarousel>
 						</Box>
 					</Stack>
 				</Container>

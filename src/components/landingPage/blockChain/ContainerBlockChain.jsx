@@ -1,53 +1,61 @@
 import img from '@/assets/Img/Rectangle.png';
+import Supply from '@/assets/Img/suply.png';
+import Finance from '@/assets/Img/finance.png';
+import Insurance from '@/assets/Img/insurance.png';
+import Healthcare from '@/assets/Img/healthcare.png';
+import Energy from '@/assets/Img/energy.png';
+import Retail from '@/assets/Img/retail.png';
+import Transportation from '@/assets/Img/transportation.png';
+import Agriculture from '@/assets/Img/agriculture.png';
 import { Box, styled } from '@mui/material';
 import { CardBlockChain } from '../individualCardTechnology/CardBlockChain';
 
 export const ContainerBlockChain = () => {
 	const cards = [
 		{
-			img: img,
+			img: Supply,
 			title: 'Blockchain in Supply Chain',
 			lorem:
 				'Create an immutable master ledger between trading parties; use smart contracts to eliminate bad invoices; have a single system of record that is accessible to all partners involved in a transaction.',
 		},
 		{
-			img: img,
+			img: Finance,
 			title: 'Blockchain in Finance',
 			lorem:
 				'Simplify and accelerate cross-border payments; execute transactions and agreements automatically with smart contracts; achieve greater accuracy, transparency and traceability of transactions; improve online identity management.',
 		},
 		{
-			img: img,
+			img: Insurance,
 			title: 'Blockchain in Insurance',
 			lorem:
 				'Create a secure ledger of information; ensure trusted and verifiable provenance information; execute terms binding the insurer and insuree, and automate payments to insuree through smart contracts.',
 		},
 		{
-			img: img,
-			title: 'Blockchain in Healtcare',
+			img: Healthcare,
+			title: 'Blockchain in Healthcare',
 			lorem:
 				'Simplify drug traceability; create secure and tamper-proof information, achieve nationwide interoperability; automate verification of medical claims through smart contracts; streamline medical records.',
 		},
 		{
-			img: img,
+			img: Energy,
 			title: 'Blockchain in Energy: Oil and Gas',
 			lorem:
 				'Ensure regulated substance monitoring and reporting; fleet and fuel tracking; leverage P2P interactions, eliminate broker fees and high cost of energy trading; manage complex supply chains.',
 		},
 		{
-			img: img,
+			img: Retail,
 			title: 'Blockchain in Retail',
 			lorem:
 				'Simplify inventory tracking; automate consumer and B2B payments using smart contracts; proof of authenticity; protect consumer privacy by storing their information in a decentralized, tamper-proof ledger.',
 		},
 		{
-			img: img,
+			img: Transportation,
 			title: 'Blockchain in Transportation',
 			lorem:
 				'Achieve greater visibility of supply chain; maintain trusted data across transportation and logistics ecosystem; accelerate customs clearance using smart contracts; easy coordination of documents on a shared distributed ledger',
 		},
 		{
-			img: img,
+			img: Agriculture,
 			title: 'Blockchain in Agriculture',
 			lorem:
 				'Bring trust and transparency to supply chain; create a secure, distributed ledger of information; facilitate exchange of data within specific stakeholders using smart contracts; control weather crisis, ensure better decision making.',

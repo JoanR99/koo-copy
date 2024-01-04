@@ -1,6 +1,12 @@
 import { Box, Stack, styled } from '@mui/material';
-import { CardMartketPlace } from '../cardMarketPlace/CardMartketPlace';
-import img from '../../../assets/Img/Spiderman.png';
+import { CardMarketPlace } from '../cardMarketPlace/CardMarketPlace';
+import I993 from '@/assets/Img/993.png';
+import I994 from '@/assets/Img/994.png';
+import I995 from '@/assets/Img/995.png';
+import I996 from '@/assets/Img/996.png';
+import I997 from '@/assets/Img/997.png';
+import I998 from '@/assets/Img/998.png';
+import I999 from '@/assets/Img/999.png';
 
 export const MarketPlaceContainer = () => {
 	return (
@@ -10,13 +16,13 @@ export const MarketPlaceContainer = () => {
 			spacing="30px"
 			justifyContent="center"
 		>
-			<CardMartketPlace size={4} />
-			<CardMartketPlace size={3} />
-			<CardMartketPlace size={2} />
-			<CardMartketPlace size={1} />
-			<CardMartketPlace size={2} />
-			<CardMartketPlace size={3} />
-			<CardMartketPlace size={4} />
+			<CardMarketPlace size={4} img={I993} />
+			<CardMarketPlace size={3} img={I994} />
+			<CardMarketPlace size={2} img={I995} />
+			<CardMarketPlace size={1} img={I996} />
+			<CardMarketPlace size={2} img={I997} />
+			<CardMarketPlace size={3} img={I998} />
+			<CardMarketPlace size={4} img={I999} />
 		</Stack>
 	);
 };

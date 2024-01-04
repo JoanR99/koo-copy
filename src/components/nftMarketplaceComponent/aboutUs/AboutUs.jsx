@@ -3,6 +3,7 @@ import {
 	CardMedia,
 	Container,
 	Grid,
+	Stack,
 	Typography,
 	styled,
 } from '@mui/material';
@@ -13,8 +14,10 @@ import logo3 from '../../../assets/Img/svg/material-symbols_wall-art-outline-sha
 export const AboutUs = () => {
 	const BoxComponentStyle = styled(Box)({
 		display: 'flex',
-		width: '100vw',
-		padding: '3rem',
+		padding: {
+			xs: '3rem 0 3rem 0',
+			md: '3rem',
+		},
 		flexDirection: 'column',
 		alignItems: 'center',
 		gap: '3rem',
@@ -44,93 +47,82 @@ export const AboutUs = () => {
 		lineHeight: 'normal',
 	});
 	return (
-		<BoxComponentStyle
+		<Box
 			sx={{
-				height: {
-					xs: '150rem',
-					sm: '117rem',
-					md: '90rem',
-					lg: '70rem',
-				},
+				bgcolor: '#C02327',
+				width: '100vw',
+				py: '40px',
 			}}
 		>
-			<Grid
-				container
-				sx={{
-					display: 'flex',
-					alignItems: 'center',
-					justifyContent: 'center',
-				}}
-			>
-				<GridCard item>
-					<Box
-						sx={{
-							display: 'flex',
-							flexDirection: 'column',
-							alignItems: 'center',
-							gap: '1.5rem',
+			<Container>
+				<Stack justifyContent="center" alignItems="center" spacing="80px">
+					<Stack
+						direction={{
+							xs: 'column',
+							md: 'row',
 						}}
+						alignItems="center"
+						spacing="60px"
 					>
-						<TypographyTitleStyle
+						<Box
 							sx={{
-								width: '14.0625rem',
-								height: '2.125rem',
-								fontSize: {
-									xs: '20px',
-								},
+								display: 'flex',
+								flexDirection: 'column',
+								alignItems: 'center',
+
+								gap: '1.5rem',
 							}}
 						>
-							What is an NFT?
-						</TypographyTitleStyle>
-						<CardMedia
-							image={logo1}
-							component="logo1"
-							sx={{
-								width: '6.525rem',
-								height: '6.525rem',
-							}}
-						/>
-					</Box>
-					<Box>
-						<TypographyTextStyle
-							sx={{
-								// width: '40.25rem',
-								width: {
-									xs: '18rem',
-									sm: '28rem',
-									lg: '40.25rem',
-								},
-								height: {
-									sm: '10.8rem',
-									lg: '9.375rem',
-								},
-							}}
-						>
-							An NFT, or non-fungible token, is a unique digital asset that can
-							be used to represent a wide range of objects, such as artwork,
-							music, videos, collectibles and more. NFTs are unique and
-							unrepeatable.
-						</TypographyTextStyle>
-					</Box>
-				</GridCard>
-				<GridCard item>
-					<Box
-						sx={{
-							display: 'flex',
-							flexWrap: 'wrap',
-							alignItems: 'center',
-							gap: '1.5rem',
+							<TypographyTitleStyle
+								sx={{
+									maxWidth: { md: '14.0625rem' },
+									fontSize: {
+										xs: '20px',
+									},
+								}}
+							>
+								What is an NFT?
+							</TypographyTitleStyle>
+							<CardMedia
+								image={logo1}
+								component="logo1"
+								sx={{
+									width: '6.525rem',
+									height: '6.525rem',
+								}}
+							/>
+						</Box>
+						<Box>
+							<TypographyTextStyle
+								sx={{
+									// width: '40.25rem',
+									maxWidth: {
+										sm: '28rem',
+										lg: '40.25rem',
+									},
+								}}
+							>
+								An NFT, or non-fungible token, is a unique digital asset that
+								can be used to represent a wide range of objects, such as
+								artwork, music, videos, collectibles and more. NFTs are unique
+								and unrepeatable.
+							</TypographyTextStyle>
+						</Box>
+					</Stack>
+
+					<Stack
+						direction={{
+							xs: 'column-reverse',
+							md: 'row',
 						}}
+						alignItems="center"
+						spacing="60px"
 					>
 						<TypographyTextStyle
 							sx={{
 								// width: '40.4375rem',
-								height: {
-									sm: '25rem',
-									lg: '17rem',
-								},
-								width: {
-									xs: '18rem',
+
+								maxWidth: {
 									sm: '28rem',
 									lg: '40.4375rem',
 								},
@@ -156,8 +148,6 @@ export const AboutUs = () => {
 						>
 							<TypographyTitleStyle
 								sx={{
-									width: '1p.25rem',
-									height: '2.125rem',
 									fontSize: {
 										xs: '20px',
 									},
@@ -174,65 +164,70 @@ export const AboutUs = () => {
 								}}
 							/>
 						</Box>
-					</Box>
-				</GridCard>
-				<GridCard item>
-					<Box
-						sx={{
-							display: 'flex',
-							flexDirection: 'column',
-							flexWrap: 'wrap',
-							alignItems: 'center',
-							gap: '1.5rem',
+					</Stack>
+					<Stack
+						direction={{
+							xs: 'column',
+							md: 'row',
 						}}
+						alignItems="center"
+						spacing="60px"
 					>
-						<TypographyTitleStyle
+						<Box
 							sx={{
-								width: '14.0625rem',
-								height: '2.125rem',
-								textAlign: 'center',
-								fontSize: {
-									xs: '20px',
-								},
+								display: 'flex',
+								flexDirection: 'column',
+								flexWrap: 'wrap',
+								alignItems: 'center',
+								gap: '1.5rem',
 							}}
 						>
-							Art market
-						</TypographyTitleStyle>
-						<CardMedia
-							image={logo3}
-							component="logo1"
-							sx={{
-								width: '6.525rem',
-								height: '6.525rem',
-							}}
-						/>
-					</Box>
-					<Box>
-						<TypographyTextStyle
-							sx={{
-								width: {
-									xs: '18rem',
-									sm: '28rem',
-									lg: '38.8125rem',
-								},
-								height: '22.5rem',
-							}}
-						>
-							An NFT Art Marketplace provides a new and secure way to buy and
-							sell digital artwork.
-							<br />
-							<br />
-							NFTs allow artists to create and sell their artwork digitally,
-							which opens up a global collector marketplace for them.
-							<br />
-							<br />
-							NFTs are also changing the way art collectors interact with the
-							market. Collectors can buy and sell NFTs quickly and easily, and
-							can track the ownership history of each NFT.
-						</TypographyTextStyle>
-					</Box>
-				</GridCard>
-			</Grid>
-		</BoxComponentStyle>
+							<TypographyTitleStyle
+								sx={{
+									maxWidth: { md: '14.0625rem' },
+
+									textAlign: 'center',
+									fontSize: {
+										xs: '20px',
+									},
+								}}
+							>
+								Art market
+							</TypographyTitleStyle>
+							<CardMedia
+								image={logo3}
+								component="logo1"
+								sx={{
+									width: '6.525rem',
+									height: '6.525rem',
+								}}
+							/>
+						</Box>
+						<Box>
+							<TypographyTextStyle
+								sx={{
+									maxWidth: {
+										sm: '28rem',
+										lg: '38.8125rem',
+									},
+								}}
+							>
+								An NFT Art Marketplace provides a new and secure way to buy and
+								sell digital artwork.
+								<br />
+								<br />
+								NFTs allow artists to create and sell their artwork digitally,
+								which opens up a global collector marketplace for them.
+								<br />
+								<br />
+								NFTs are also changing the way art collectors interact with the
+								market. Collectors can buy and sell NFTs quickly and easily, and
+								can track the ownership history of each NFT.
+							</TypographyTextStyle>
+						</Box>
+					</Stack>
+				</Stack>
+			</Container>
+		</Box>
 	);
 };

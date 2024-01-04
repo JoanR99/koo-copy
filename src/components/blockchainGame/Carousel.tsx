@@ -7,12 +7,20 @@ import {
 	styled,
 	useTheme,
 } from '@mui/material';
-import img from '@/assets/Img/Spiderman.png';
 import ellipse from '@/assets/Img/svg/Ellipse_27.svg';
 import ellipse1 from '@/assets/Img/svg/Ellipse_29.svg';
 import ellipse3 from '@/assets/Img/svg/Ellipse_30.svg';
 import ReactCarousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
+import I992 from '@/assets/Img/992.png';
+import I993 from '@/assets/Img/993.png';
+import I994 from '@/assets/Img/994.png';
+import I995 from '@/assets/Img/995.png';
+import I996 from '@/assets/Img/996.png';
+import I997 from '@/assets/Img/997.png';
+import I998 from '@/assets/Img/998.png';
+import I999 from '@/assets/Img/999.png';
+
 const responsive = {
 	superLargeDesktop: {
 		// the naming can be any, depends on you.
@@ -90,7 +98,7 @@ export default function Carousel() {
 					}}
 				>
 					<CardMediaStyle
-						image={img}
+						image={I993}
 						sx={{
 							width: '13.3125rem',
 							height: '24.5625rem',
@@ -110,7 +118,7 @@ export default function Carousel() {
 					}}
 				>
 					<CardMediaStyle
-						image={img}
+						image={I994}
 						sx={{
 							width: '13.3125rem',
 							height: '24.5625rem',
@@ -130,7 +138,7 @@ export default function Carousel() {
 					}}
 				>
 					<CardMediaStyle
-						image={img}
+						image={I995}
 						sx={{
 							width: '13.3125rem',
 							height: '24.5625rem',
@@ -150,7 +158,7 @@ export default function Carousel() {
 					}}
 				>
 					<CardMediaStyle
-						image={img}
+						image={I996}
 						sx={{
 							width: '13.3125rem',
 							height: '24.5625rem',
@@ -170,7 +178,7 @@ export default function Carousel() {
 					}}
 				>
 					<CardMediaStyle
-						image={img}
+						image={I997}
 						sx={{
 							width: '13.3125rem',
 							height: '24.5625rem',
@@ -190,7 +198,7 @@ export default function Carousel() {
 					}}
 				>
 					<CardMediaStyle
-						image={img}
+						image={I998}
 						sx={{
 							width: '13.3125rem',
 							height: '24.5625rem',
@@ -210,7 +218,7 @@ export default function Carousel() {
 					}}
 				>
 					<CardMediaStyle
-						image={img}
+						image={I999}
 						sx={{
 							width: '13.3125rem',
 							height: '24.5625rem',
@@ -230,7 +238,7 @@ export default function Carousel() {
 					}}
 				>
 					<CardMediaStyle
-						image={img}
+						image={I992}
 						sx={{
 							width: '13.3125rem',
 							height: '24.5625rem',

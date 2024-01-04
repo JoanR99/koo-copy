@@ -7,6 +7,7 @@ import Box from '@mui/material/Box';
 type AiOfferingCardProps = {
 	title: string;
 	description: string;
+	img: string;
 };
 
 export default function AiOfferingCard(props: AiOfferingCardProps) {
@@ -26,7 +27,7 @@ export default function AiOfferingCard(props: AiOfferingCardProps) {
 						maxWidth: '80px',
 					}}
 				>
-					<img src={Ellipse} alt="ellipse" />
+					<img src={props.img} alt={props.title} />
 				</Box>
 				<Typography
 					sx={{
