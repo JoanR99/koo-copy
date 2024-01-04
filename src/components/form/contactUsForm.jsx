@@ -175,7 +175,10 @@ export default function ContactUsForm() {
 				</Box>
 			</Box>
 			<Box sx={StyledContainerFormPrimary}>
-				<Typography variant="body2" sx={{ color: '#eae8e8' }}>
+				<Typography
+					variant="body2"
+					sx={{ color: '#eae8e8', pb: '20px', textAlign: 'center' }}
+				>
 					Send us a message and we will contact you.
 				</Typography>
 				<form onSubmit={formik.handleSubmit}>
@@ -392,7 +395,12 @@ export default function ContactUsForm() {
 								</FormHelperText>
 							)}
 						</FormControl>
-						<Box>
+						<Box
+							sx={{
+								display: 'flex',
+								justifyContent: 'center',
+							}}
+						>
 							<ButtonSecondary
 								disabled={!(formik.dirty && formik.isValid)}
 								type="submit"

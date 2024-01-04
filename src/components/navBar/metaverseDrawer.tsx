@@ -12,6 +12,7 @@ const metaverseLinks = [
 	{
 		title: 'Metaverse',
 		to: '/metaverse',
+		description: 'Enter and explore a digital world',
 	},
 ];
 
@@ -194,8 +195,7 @@ export default function MetaverseDrawer({
 									},
 								}}
 							>
-								Lorem ipsum dolor sit amet consectetur. Cursus tristique a
-								mattis cursus.
+								Enter and explore a digital world.
 							</Typography>
 						</Stack>
 

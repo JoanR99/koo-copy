@@ -11,7 +11,7 @@ export const CardCrearNft = () => {
 	});
 	const BoxCard = styled(Box)({
 		display: 'flex',
-		width: '17.4rem',
+		width: '16.4rem',
 		flexDirection: 'column',
 		justifyContent: 'center',
 		alignItems: 'center',
@@ -20,10 +20,11 @@ export const CardCrearNft = () => {
 	const TypographyTltleStyle = styled(Typography)({
 		color: '#C02327',
 		fontFamily: 'Poppins',
-		fontSize: '1.635rem !important ',
+		fontSize: '25px !important ',
 		fontStyle: 'normal',
 		fontWeight: 600,
 		lineHeight: 'normal',
+		textAlign: 'center',
 	});
 	const TypographyTextStyle = styled(Typography)(({ theme }) => ({
 		color: theme.palette.text.primary,
@@ -32,6 +33,7 @@ export const CardCrearNft = () => {
 		fontStyle: 'normal',
 		fontWeight: 600,
 		lineHeight: 'normal',
+		textAlign: 'center',
 	}));
 	const TypographyNumberStyle = styled(Typography)({
 		color: '#EAE8E8',
@@ -55,46 +57,73 @@ export const CardCrearNft = () => {
 	return (
 		<Box
 			sx={{
-				display: 'flex',
-				width: {
-					md: '50rem',
-					lg: '90rem',
-				},
-				flexWrap: 'wrap',
-				justifyContent: 'center',
-				alignItems: 'center',
-				gap: '3.5rem',
+				width: '100%',
 			}}
 		>
-			<BoxCard>
-				<CardMediaStyle image={eclipce} component="eclipse">
-					<TypographyNumberStyle>1</TypographyNumberStyle>
-				</CardMediaStyle>
-				<TypographyTltleStyle>Selecciona una colección</TypographyTltleStyle>
-				<TypographyTextStyle>
-					Selecciona la colección dónde quieres alojar tu NFT.
-				</TypographyTextStyle>
-			</BoxCard>
-			<DividerStyle />
-			<BoxCard>
-				<CardMediaStyle image={eclipce} component="eclipse">
-					<TypographyNumberStyle>2</TypographyNumberStyle>
-				</CardMediaStyle>
-				<TypographyTltleStyle>Sube tu NFT</TypographyTltleStyle>
-				<TypographyTextStyle>
-					Selecciona la colección dónde quieres alojar tu NFT.
-				</TypographyTextStyle>
-			</BoxCard>
-			<DividerStyle />
-			<BoxCard>
-				<CardMediaStyle image={eclipce} component="eclipse">
-					<TypographyNumberStyle>3</TypographyNumberStyle>
-				</CardMediaStyle>
-				<TypographyTltleStyle>Mintea</TypographyTltleStyle>
-				<TypographyTextStyle>
-					Selecciona la colección dónde quieres alojar tu NFT.
-				</TypographyTextStyle>
-			</BoxCard>
+			<Box
+				sx={{
+					display: 'flex',
+					flexWrap: 'wrap',
+					justifyContent: {
+						xs: 'center',
+						md: 'space-between',
+					},
+					alignItems: 'center',
+					gap: '32px',
+					width: '100%',
+				}}
+			>
+				<BoxCard
+					sx={{
+						width: {
+							xs: '100%',
+							md: '16.4rem',
+						},
+					}}
+				>
+					<CardMediaStyle image={eclipce} component="eclipse">
+						<TypographyNumberStyle>1</TypographyNumberStyle>
+					</CardMediaStyle>
+					<TypographyTltleStyle>Select a collection</TypographyTltleStyle>
+					<TypographyTextStyle>
+						Select the collection where you want to to host your NFT.
+					</TypographyTextStyle>
+				</BoxCard>
+				<DividerStyle />
+				<BoxCard
+					sx={{
+						width: {
+							xs: '100%',
+							md: '16.4rem',
+						},
+					}}
+				>
+					<CardMediaStyle image={eclipce} component="eclipse">
+						<TypographyNumberStyle>2</TypographyNumberStyle>
+					</CardMediaStyle>
+					<TypographyTltleStyle>Upload your NFT</TypographyTltleStyle>
+					<TypographyTextStyle>
+						Select the collection where you want to to host your NFT.
+					</TypographyTextStyle>
+				</BoxCard>
+				<DividerStyle />
+				<BoxCard
+					sx={{
+						width: {
+							xs: '100%',
+							md: '16.4rem',
+						},
+					}}
+				>
+					<CardMediaStyle image={eclipce} component="eclipse">
+						<TypographyNumberStyle>3</TypographyNumberStyle>
+					</CardMediaStyle>
+					<TypographyTltleStyle>Mintea</TypographyTltleStyle>
+					<TypographyTextStyle>
+						Select the collection where you want to to host your NFT.
+					</TypographyTextStyle>
+				</BoxCard>
+			</Box>
 		</Box>
 	);
 };

@@ -11,7 +11,9 @@ import DropdownLink from './dropdownLink';
 const companiesLinks = [
 	{
 		title: 'Consulting Company',
-		to: '/#',
+		to: '/contact',
+		description:
+			'Ours is a blockchain consulting and solution provider company. You idealize, we realize!',
 	},
 ];
 
@@ -194,8 +196,8 @@ export default function ConsultingDrawer({
 									},
 								}}
 							>
-								Lorem ipsum dolor sit amet consectetur. Cursus tristique a
-								mattis cursus.
+								We empower your business through blockchain consulting expertise
+								that provides lasting gains.
 							</Typography>
 						</Stack>
 

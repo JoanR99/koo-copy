@@ -405,6 +405,7 @@ export default function AiMlSolutions() {
 
 						<Box
 							sx={{
+								width: '100%',
 								display: 'grid',
 								gridTemplateColumns: {
 									xs: '1fr',
@@ -414,15 +415,15 @@ export default function AiMlSolutions() {
 								gap: '32px',
 							}}
 						>
-							<TechStackSevenCard title="AI/ML" />
+							<TechStackSevenCard title="Deep Learning(DL) Frameworks" />
 							<Stack spacing="45px" alignItems="center">
-								<TechStackThreeCard title="AI/ML" />
-								<TechStackThreeCard title="AI/ML" />
+								<TechStackThreeCard title="Modules/Toolkits" />
+								<TechStackThreeCard title="Generative AI Models" />
 							</Stack>
-							<TechStackSevenCard title="AI/ML" />
-							<TechStackFourCard title="AI/ML" />
-							<TechStackFourCard title="AI/ML" />
-							<TechStackFourCard title="AI/ML" />
+							<TechStackSevenCard title="Neural Networks" />
+							<TechStackFourCard title="Algorithms" />
+							<TechStackFourCard title="Image Classification Models" />
+							<TechStackFourCard title="Libraries" />
 						</Box>
 					</Stack>
 				</Container>
@@ -433,7 +434,7 @@ export default function AiMlSolutions() {
 					py: '80px',
 				}}
 			>
-				<Stack spacing="20px" alignItems="center">
+				<Stack spacing="40px" alignItems="center">
 					<Stack
 						sx={{
 							maxWidth: '1100px',

@@ -306,7 +306,11 @@ export default function P2pLending() {
 							</Typography>
 						</Stack>
 
-						<Stack direction={{ xs: 'column', md: 'row' }} spacing="24px">
+						<Stack
+							direction={{ xs: 'column', md: 'row' }}
+							spacing="24px"
+							alignItems="center"
+						>
 							<ButtonPrimary>Contact User</ButtonPrimary>
 							<ButtonSecondary>Connect on WhatsApp</ButtonSecondary>
 							<ButtonSecondary>Connect on Telegram</ButtonSecondary>

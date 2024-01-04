@@ -18,6 +18,7 @@ type DropdownLinkProps = {
 	link: {
 		title: string;
 		to: string;
+		description: string;
 	};
 	handleClose: () => void;
 };
@@ -64,8 +65,7 @@ export default function DropdownLink({ link, handleClose }: DropdownLinkProps) {
 					},
 				}}
 			>
-				Lorem ipsum dolor sit amet consectetur. Cursus tristique a mattis
-				cursus.
+				{link.description}
 			</Typography>
 		</Stack>
 	);

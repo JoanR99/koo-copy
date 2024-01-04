@@ -11,117 +11,170 @@ import DropdownLink from './dropdownLink';
 const exchangeLinks = [
 	{
 		title: 'Cryptocurrency Exchange',
-		to: '/#',
+		to: '/contact',
+		description:
+			'Develop your unique and competitive cryptocurrency exchange from scratch',
 	},
 	{
 		title: 'White Label Exchange',
-		to: '/#',
+		to: '/contact',
+		description:
+			'Gear up your revenue stream using a ready-made white label crypto exchange',
 	},
 	{
 		title: 'Margin Trading Exchanged',
-		to: '/#',
+		to: '/contact',
+		description:
+			'Secure and feature-rich margin trading exchange to disrupt the crypto market',
 	},
 	{
 		title: 'PS2 Exchange',
-		to: '/#',
+		to: '/contact',
+		description:
+			'Use a smart contract-based Escrow system to foster reliable transactions',
 	},
 	{
-		title: 'Descentralized Exchange',
-		to: '/#',
+		title: 'Decentralized Exchange',
+		to: '/contact',
+		description:
+			'Reduce your time-to-market with a customized DEX exchange script solution',
 	},
 	{
 		title: 'Arbitrage Trading bots',
-		to: '/#',
+		to: '/contact',
+		description:
+			'Elevate your trading strategies with the powerful crypto arbitrage bots',
 	},
 	{
 		title: 'Derivatives Exchange',
-		to: '/#',
+		to: '/contact',
+		description:
+			'Assured platform liquidity & returns for a huge pool of crypto investors',
 	},
 	{
 		title: 'Centralized Exchange',
-		to: '/#',
+		to: '/contact',
+		description:
+			'Facilitate digital asset trading in a secure and convenient environment',
 	},
 	{
 		title: 'Market Making Exchange',
-		to: '/#',
+		to: '/contact',
+		description:
+			'Intensify liquidity provisioning with perfect market making strategies',
 	},
 ];
 
 const walletLinks = [
 	{
 		title: 'Cryptocurrency Wallet',
-		to: '/#',
+		to: '/contact',
+		description:
+			'Robust & secure wallet solutions for storing & transferring crypto assets',
 	},
 	{
 		title: 'White Label Wallet',
-		to: '/#',
+		to: '/contact',
+		description:
+			'Ready-to-deploy white label wallet with high-grade security features',
 	},
 	{
 		title: 'Web3 Wallet',
-		to: '/#',
+		to: '/contact',
+		description:
+			'Access data in real time with trustless Web3 blockchain ecosystems',
 	},
 	{
 		title: 'Multycurrency Wallet',
-		to: '/#',
+		to: '/contact',
+		description:
+			'Deploy wallets that are intuitive, user-friendly, secure & scalable',
 	},
 	{
-		title: 'NFT Walle',
-		to: '/#',
+		title: 'NFT Wallet',
+		to: '/contact',
+		description:
+			'Private key-based solutions to buy, sell and exchange non fungible tokens',
 	},
 	{
 		title: 'TRON Wallet',
-		to: '/#',
+		to: '/contact',
+		description:
+			'Tron wallet hold private keys & TRX coins securely within itself.',
 	},
 	{
 		title: 'Bitcoin Wallet',
-		to: '/#',
+		to: '/contact',
+		description:
+			'Launch your Bitcoin wallet, enabling speedier transactions & storage.',
 	},
 	{
 		title: 'Mobile Wallet App',
-		to: '/#',
+		to: '/contact',
+		description: 'Mobile wallet makes payments & transfer process simple.',
 	},
 	{
 		title: 'Defi Wallet',
-		to: '/#',
+		to: '/contact',
+		description:
+			'A wallet that is fortified from hacks, & immune to cross-border regulations',
 	},
 ];
 
 const nftLinks = [
 	{
 		title: 'NFT Development',
-		to: '/#',
+		to: '/contact',
+		description:
+			'Build decentralized non-fungible tokens aligned with different business needs',
 	},
 	{
 		title: 'White Label NFT Marketplace',
-		to: '/#',
+		to: '/contact',
+		description:
+			'Get a customized white label NFT marketplace with multi-platform support',
 	},
 	{
 		title: 'NFT Music',
-		to: '/#',
+		to: '/contact',
+		description:
+			'Customer-centric marketplace for selling, trading and auctioning music NFTs',
 	},
 	{
 		title: 'NFT Marketplace',
-		to: '/#',
+		to: '/contact',
+		description:
+			'Top-performing marketplaces for users to mint, sell, buy, and trade NFTs',
 	},
 	{
 		title: 'NFT Loan',
-		to: '/#',
+		to: '/contact',
+		description:
+			'Facilitate your participation in revolutionized borrowing & lending world',
 	},
 	{
 		title: 'Semi Fungible Token',
-		to: '/#',
+		to: '/contact',
+		description:
+			'Easy batch token transfers that support both NFTs and fungible tokens',
 	},
 	{
 		title: 'NFT Gaming',
-		to: '/#',
+		to: '/contact',
+		description:
+			'Exclusive gameplay with rare digital assets like characters, tickets, weapons, & skins.',
 	},
 	{
 		title: 'NFT Generative Art',
-		to: '/#',
+		to: '/contact',
+		description:
+			'Future ready NFT generative art marketplace that supports pictures, videos and GIFs',
 	},
 	{
 		title: 'NFT Art',
-		to: '/#',
+		to: '/contact',
+		description:
+			'Tokenize digital and physical assets into a one-of-a-kind, untransferable NFT',
 	},
 ];
 
@@ -384,8 +437,8 @@ export default function SolutionsDrawer({
 									},
 								}}
 							>
-								Lorem ipsum dolor sit amet consectetur. Cursus tristique a
-								mattis cursus.
+								Enter the market with the best-in-class crypto exchange
+								development services
 							</Typography>
 						</Stack>
 
@@ -443,8 +496,8 @@ export default function SolutionsDrawer({
 									},
 								}}
 							>
-								Lorem ipsum dolor sit amet consectetur. Cursus tristique a
-								mattis cursus.
+								Solutions that help users enjoy transactions in a speedier &
+								secure environment
 							</Typography>
 						</Stack>
 
@@ -502,8 +555,8 @@ export default function SolutionsDrawer({
 									},
 								}}
 							>
-								Lorem ipsum dolor sit amet consectetur. Cursus tristique a
-								mattis cursus.
+								Solutions that help users enjoy transactions in a speedier &
+								secure environment
 							</Typography>
 						</Stack>
 

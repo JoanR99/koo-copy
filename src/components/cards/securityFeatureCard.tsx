@@ -15,7 +15,10 @@ export default function SecurityFeatureCard(props: SecurityFeatureCardProps) {
 		<Box
 			sx={{
 				pt: '180px',
-				maxWidth: '320px',
+				maxWidth: {
+					xs: '100%',
+					md: '320px',
+				},
 				color: (theme) => theme.palette.text.primary,
 			}}
 		>

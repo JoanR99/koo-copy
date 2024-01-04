@@ -30,7 +30,7 @@ export default function AiTechnologyCard(props: AiTechnologyCardProps) {
 				bgcolor: '#323232',
 			}}
 		>
-			<Stack direction="row" spacing="8px">
+			<Stack direction="row" spacing="8px" alignItems="center">
 				<Box
 					sx={{
 						position: 'relative',

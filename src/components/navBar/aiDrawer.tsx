@@ -12,6 +12,7 @@ const aiLinks = [
 	{
 		title: 'AI ML',
 		to: '/ai-ml',
+		description: 'Enter and explore a world of  IA tools',
 	},
 ];
 
@@ -195,8 +196,7 @@ export default function AiDrawer({
 									},
 								}}
 							>
-								Lorem ipsum dolor sit amet consectetur. Cursus tristique a
-								mattis cursus.
+								Enter and explore a world of IA tools
 							</Typography>
 						</Stack>
 

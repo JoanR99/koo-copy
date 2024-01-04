@@ -12,6 +12,7 @@ const nftLinks = [
 	{
 		title: 'NFT Marketplace',
 		to: '/marketplace',
+		description: 'Enter and explore a world of digital art',
 	},
 ];
 
@@ -194,8 +195,8 @@ export default function NftMarketplaceDrawer({
 									},
 								}}
 							>
-								Lorem ipsum dolor sit amet consectetur. Cursus tristique a
-								mattis cursus.
+								Digital platform facilitating the purchase, sale and creation of
+								non fungible tokens (NFTs).
 							</Typography>
 						</Stack>
 

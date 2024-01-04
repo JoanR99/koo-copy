@@ -190,13 +190,14 @@ export default function SmartContract() {
 									terms and conditions called Smart contracts have the potential
 									to transform the way agreements are made across several
 									industries such as real estate, supply chain, telecom,
-									manufacturing, healthcare, and more.Antier Solutions is an
-									experienced smart contract development company with sheer
-									expertise in creating smart contracts tailored perfectly to
-									diverse industries and business models. Backed by skilled
-									smart contract developers, we know what it takes to create an
-									outstanding computer-based protocol to automate business
-									agreements.
+									manufacturing, healthcare, and more.
+									<br />
+									<br /> Koolinart is an experienced smart contract development
+									company with sheer expertise in creating smart contracts
+									tailored perfectly to diverse industries and business models.
+									Backed by skilled smart contract developers, we know what it
+									takes to create an outstanding computer-based protocol to
+									automate business agreements.
 								</Typography>
 							</Stack>
 						</Stack>
@@ -330,9 +331,9 @@ export default function SmartContract() {
 								DeFi market size, which was valued at USD 13.61 billion in 2022,
 								is expected to grow at a CAGR of 46.0% from 2023 to 2030. So it
 								is crunch time for finance experts to make hefty investments in
-								DeFi smart contract development. <br /> Being a leading DeFi
-								smart contract development company, Antier Solutions provides
-								DeFi smart contract development services to financial
+								DeFi smart contract development. <br /> <br /> Being a leading
+								DeFi smart contract development company, Antier Solutions
+								provides DeFi smart contract development services to financial
 								institutions to help them improve data accuracy, reduce
 								paperwork, strengthen security, and faster transaction
 								processing. Our Blockchain experts help businesses develop DeFi
@@ -374,6 +375,7 @@ export default function SmartContract() {
 
 						<Box
 							sx={{
+								width: '100%',
 								display: 'grid',
 								gridTemplateColumns: {
 									xs: 'repeat(1, 1fr)',

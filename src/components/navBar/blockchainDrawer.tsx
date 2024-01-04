@@ -12,14 +12,19 @@ const developmentLinks = [
 	{
 		title: 'Blockchain Development',
 		to: '/blockchain',
+		description:
+			'Tap into the potential of blockchain technology with our strategic blockchain services',
 	},
 	{
 		title: 'Blockchain Game',
 		to: '/blockchain-game',
+		description:
+			'Elevate your gaming venture with specialized blockchain game development solutions',
 	},
 	{
-		title: 'Blockchain Development',
+		title: 'Blockchain In Identity Management',
 		to: '/blockchain',
+		description: 'Transparent and flawless identity management with blockchain',
 	},
 ];
 
@@ -27,6 +32,7 @@ const smartLinks = [
 	{
 		title: 'Smart Contract',
 		to: '/smart-contract',
+		description: 'Smart contracts for a smarter business',
 	},
 ];
 
@@ -34,6 +40,7 @@ const assetLinks = [
 	{
 		title: 'Asset Tokenization',
 		to: '/asset-tokenization',
+		description: 'Tokenize your assets and unlock their true value',
 	},
 ];
 
@@ -41,6 +48,7 @@ const p2pLinks = [
 	{
 		title: 'P2P Lending',
 		to: '/p2p-lending',
+		description: 'Leverage the power of blockchain to revolutionize lending',
 	},
 ];
 
@@ -342,8 +350,8 @@ export default function BlockchainDrawer({
 									},
 								}}
 							>
-								Lorem ipsum dolor sit amet consectetur. Cursus tristique a
-								mattis cursus.
+								Navigate your journey towards blockchain with diligently crafted
+								solutions.
 							</Typography>
 						</Stack>
 
@@ -401,8 +409,7 @@ export default function BlockchainDrawer({
 									},
 								}}
 							>
-								Lorem ipsum dolor sit amet consectetur. Cursus tristique a
-								mattis cursus.
+								Automate your business processes with smart contracts.
 							</Typography>
 						</Stack>
 
@@ -460,8 +467,7 @@ export default function BlockchainDrawer({
 									},
 								}}
 							>
-								Lorem ipsum dolor sit amet consectetur. Cursus tristique a
-								mattis cursus.
+								Tokenize your assets and unlock their true value.
 							</Typography>
 						</Stack>
 
@@ -519,8 +525,7 @@ export default function BlockchainDrawer({
 									},
 								}}
 							>
-								Lorem ipsum dolor sit amet consectetur. Cursus tristique a
-								mattis cursus.
+								Leverage the power of blockchain to revolutionize lending.
 							</Typography>
 						</Stack>
 

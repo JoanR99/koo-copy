@@ -17,7 +17,7 @@ function ButtonStyles(
 		transition: '0.5s',
 		':hover': {
 			backgroundColor: 'background.paper',
-			color: '#EAE8E8',
+			color: 'text.secondary',
 		},
 	};
 }

@@ -5,6 +5,8 @@ import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 import ThemeImg from '@/assets/Img/svg/tema.svg';
 import ButtonPrimaryNavBar from '@/components/buttons/buttonPrimaryNavBar';
 import ButtonSecondaryNavBar from '@/components/buttons/buttonSecondaryNavBar';
+import { shallow } from 'zustand/shallow';
+import { useBoundStore } from '@/stores/index';
 
 const UnstyledAnchor = styled('a')({
 	textDecoration: 'none',
@@ -72,8 +74,7 @@ type Props = {
 
 export default function MobileMenu({
 	isOpen,
-	themeModeState,
-	ChangeMode,
+
 	setIsNftMarketplaceOpen,
 	setIsBlockchainOpen,
 	setIsAiOpen,
@@ -82,6 +83,11 @@ export default function MobileMenu({
 	setIsSolutionOpen,
 	setIsMenuOpen,
 }: Props) {
+	const { themeModeState, ChangeMode } = useBoundStore(
+		(state: any) => state,
+		shallow
+	);
+
 	return (
 		<HiddenMenu
 			sx={{

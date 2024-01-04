@@ -303,7 +303,6 @@ export default function NavbarDrawer(props) {
 				/>
 				<MobileMenu
 					isOpen={isMenuOpen}
-					ChangeMode={ChangeMode}
 					setIsAiOpen={setIsAiOpen}
 					setIsBlockchainOpen={setIsBlockchainOpen}
 					setIsConsultingOpen={setIsConsultingOpen}

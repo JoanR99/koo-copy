@@ -23,7 +23,7 @@ export const TitleDevelopment = styled(Typography)({
 	color: '#C02327',
 	textAlign: 'center',
 	fontFamily: 'Poppins',
-	fontSize: '2rem !important',
+	fontSize: '32px !important',
 	fontStyle: 'normal',
 	fontWeight: '600',
 	lineHeight: 'normal',
@@ -33,9 +33,9 @@ export const SubtitleDevelopment = styled(Typography)(({ theme }) => ({
 	color: theme.palette.text.primary,
 	textAlign: 'center',
 	fontFamily: 'Poppins',
-	fontSize: '1.25rem',
+	fontSize: '16px !important',
 	fontStyle: 'normal',
-	fontWeight: 600,
+	fontWeight: 500,
 	lineHeight: 'normal',
 }));
 
@@ -73,11 +73,7 @@ export default function WhyChooce() {
 					<TitleDevelopment>
 						Why Choose us as your Blockchain Development Company?
 					</TitleDevelopment>
-					<Box
-						sx={{
-							padding: ' 0 5rem',
-						}}
-					>
+					<Box>
 						<SubtitleDevelopment>
 							By partnering with Koolinart, you can rely on a team of technical
 							experts with real-world experience delivering end-to-end

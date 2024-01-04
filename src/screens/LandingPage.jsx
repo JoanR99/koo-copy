@@ -2,13 +2,13 @@ import { Advantages } from '@/components/landingPage/advantages/Advantages';
 import { BlockChainSolution } from '@/components/landingPage/blockChain/BlockChaninSolution';
 import { CaseStudies } from '@/components/landingPage/caseStudio/CaseStudies';
 import { OurClients } from '@/components/landingPage/ourClient/OurClients';
-import { Tegnogoly } from '@/components/landingPage/tegnogoly/Tegnogoly';
 import ContactUs from '@/components/landingPage/contactUs/ContactUs';
 import { YourRoadMap } from '@/components/landingPage/yourRoadmap/YourRoadMap';
 import { Box } from '@mui/material';
 import { PartnersBlockChain } from '@/components/landingPage/partnersBlockChain/PartnersBlockChain';
 import { TransitionToWeb } from '../components/landingPage/transitionToWeb/TransitionToWeb';
 import { ForDecentralized } from '../components/landingPage/forDecentralized/ForDecentralized';
+import { Technology } from '../components/landingPage/technology/Technology';
 
 export default function LandingPage() {
 	return (
@@ -27,12 +27,12 @@ export default function LandingPage() {
 			<ForDecentralized />
 			<TransitionToWeb title="Transition to web3 Transition to the future" />
 			<Advantages title="Advantages of using blockchain" />
-			<Tegnogoly title="Tegnogoly EVM" />
-			<BlockChainSolution title="Blockc hain solutions for enterprises" />
+			<Technology title="Technology EVM" />
+			<BlockChainSolution title="Blockchain solutions for enterprises" />
 			<YourRoadMap title="Your roadmap to capitalize on the blockchain opportunity" />
 			<CaseStudies title="Case Studies" />
-			<OurClients title="Our Clients" />
 			<PartnersBlockChain />
+			<OurClients title="Our Clients" />
 			<ContactUs />
 		</Box>
 	);

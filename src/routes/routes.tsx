@@ -59,30 +59,31 @@ export default function Navigator() {
 				</Grid>
 			}
 		>
-			<NavbarDrawer>
-				<Routes>
-					<Route path="/" element={<Home />} />
-					<Route path="/smart-contract" element={<SmartContract />} />
-					<Route path="/asset-tokenization" element={<AssetTokenization />} />
-					<Route path="/p2p-lending" element={<P2pLending />} />
-					<Route path="/ai-ml" element={<AiMlSolutions />} />
-					<Route path="/blockchain" element={<Blockchain />} />
-					<Route path="/marketplace" element={<NftMarketplace />} />
-					<Route path="/metaverse" element={<Metaverse />} />
-					<Route path="/blockchain-game" element={<BlockchainGame />} />
-					<Route path="/contact" element={<ContactUs />} />
-					<Route path="*" element={<NotFoundPage />} />
-				</Routes>
-			</NavbarDrawer>
-			{/*other tools */}
-			<AlertGlobal />
-			<ModalGlobal />
 			<Box
 				sx={{
-					background: '#C02327',
-					// width: '100%',
+					maxWidth: '100vw',
+					overflowX: 'hidden',
 				}}
 			>
+				<NavbarDrawer>
+					<Routes>
+						<Route path="/" element={<Home />} />
+						<Route path="/smart-contract" element={<SmartContract />} />
+						<Route path="/asset-tokenization" element={<AssetTokenization />} />
+						<Route path="/p2p-lending" element={<P2pLending />} />
+						<Route path="/ai-ml" element={<AiMlSolutions />} />
+						<Route path="/blockchain" element={<Blockchain />} />
+						<Route path="/marketplace" element={<NftMarketplace />} />
+						<Route path="/metaverse" element={<Metaverse />} />
+						<Route path="/blockchain-game" element={<BlockchainGame />} />
+						<Route path="/contact" element={<ContactUs />} />
+						<Route path="*" element={<NotFoundPage />} />
+					</Routes>
+				</NavbarDrawer>
+				{/*other tools */}
+				<AlertGlobal />
+				<ModalGlobal />
+
 				<Footer />
 			</Box>
 		</React.Suspense>

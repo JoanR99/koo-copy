@@ -13,7 +13,10 @@ export default function AssetModuleCard(props: ModuleCardProps) {
 			sx={{
 				padding: '32px 24px 64px 24px',
 				bgcolor: '#595959',
-				maxWidth: '290px',
+				maxWidth: {
+					xs: '100%',
+					md: '290px',
+				},
 			}}
 		>
 			<Stack spacing="32px">

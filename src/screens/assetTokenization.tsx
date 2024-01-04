@@ -377,7 +377,7 @@ export default function AssetTokenization() {
 									textAlign: 'center',
 								}}
 							>
-								Modules of our Asset Tokenization Ecosystem
+								Business Benefits of Digital Asset Tokenization
 							</Typography>
 							<Typography
 								sx={{
@@ -390,16 +390,18 @@ export default function AssetTokenization() {
 									textAlign: 'center',
 								}}
 							>
-								The asset tokenization ecosystem comprises specific modules that
-								are vital for ensuring success. Real-world asset tokenization
-								system developed by Antier, the best asset tokenization services
-								provider, is underpinned by the following to achieve world-class
-								user experience.
+								Koolinart, as a premium tokenization platform development
+								company provides an end-to-end ecosystem for enterprises to
+								unlock the vast potential of the tokenomy. Our white-label asset
+								tokenization platform benefits asset owners with immutable
+								records & transparent transactions, helping platform owners
+								expand their horizons.
 							</Typography>
 						</Stack>
 
 						<Box
 							sx={{
+								width: '100%',
 								display: 'grid',
 								gridTemplateColumns: {
 									xs: '1fr',

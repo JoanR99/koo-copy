@@ -53,10 +53,9 @@ export default function Web3Game() {
 							fontWeight: { xs: '500' },
 						}}
 					>
-						We have an extensive history of developing great digital experiences
-						across industries. Our designers and developers work together in the
-						real world to create an immersive digital world that is more
-						meaningful than real life.
+						Our designers and developers work together in the real world to
+						create an immersive digital world that is more meaningful than real
+						life.
 						<br />
 						<br />
 						Whether it is a simple card game, a more complex combat game with

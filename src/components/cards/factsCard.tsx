@@ -14,14 +14,17 @@ export default function FactsCard(props: FactsCardProps) {
 		<Stack
 			spacing="8px"
 			sx={{
-				maxWidth: props.maxWidth,
+				maxWidth: {
+					xs: '100%',
+					md: props.maxWidth,
+				},
 			}}
 		>
 			<Box>
 				<img src={Ellipse} alt="ellipse" />
 			</Box>
 
-			<Stack>
+			<Stack spacing="5px">
 				<Typography
 					sx={{
 						color: '#EAE8E8',

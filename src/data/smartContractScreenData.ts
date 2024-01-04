@@ -137,7 +137,7 @@ export const useCases = [
 	{
 		title: 'Media & Entertainment',
 		description:
-			'Antier Solutions empower the media and entertainment industry by providing smart contract solutions that enable automatic execution of micropayments between the consumer and the creator thereby eliminating intermediaries.',
+			'Koolinart empower the media and entertainment industry by providing smart contract solutions that enable automatic execution of micropayments between the consumer and the creator thereby eliminating intermediaries.',
 		img: 'https://source.unsplash.com/random',
 	},
 ];

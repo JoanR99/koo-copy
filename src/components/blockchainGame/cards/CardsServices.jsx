@@ -1,4 +1,5 @@
 import { Box, Typography, styled } from '@mui/material';
+import Shape from '@/assets/Img/svg/Vector.svg';
 
 const ContainerRed = styled(Box)({
 	display: 'flex',
@@ -57,7 +58,7 @@ export default function CardsServices(props) {
 		>
 			<ContainerRed>
 				<VectorContainer>
-					<VectorWhite src="src/assets/Img/svg/Vector.svg" />
+					<VectorWhite src={Shape} />
 					<ImageOverlay src={props.img} alt="Overlay" />
 				</VectorContainer>
 				<Box sx={{ marginTop: '7.5rem' }}>

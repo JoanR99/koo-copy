@@ -12,9 +12,9 @@ export const CompraSegura = () => {
 	const TypographyTitleStyle = styled(Typography)({
 		color: '#C02327',
 		fontFamily: 'Poppins',
-		fontSize: '2.8125rem !importan',
+		fontSize: '45px !importan',
 		fontStyle: 'normal',
-		fontWeight: 800,
+		fontWeight: '800 !important',
 		lineHeight: 'normal',
 	});
 	const TypographyStyle = styled(Typography)(({ theme }) => ({
@@ -68,7 +68,19 @@ export const CompraSegura = () => {
 						},
 					}}
 				>
-					<TypographyTitleStyle>Compra de forma segura</TypographyTitleStyle>
+					<TypographyTitleStyle
+						sx={{
+							fontSize: {
+								xs: '25px',
+								md: '35px',
+							},
+							fontWeight: {
+								xs: '800',
+							},
+						}}
+					>
+						Buy KNRT securely
+					</TypographyTitleStyle>
 					<TypographyStyle
 						sx={{
 							width: {
@@ -85,8 +97,9 @@ export const CompraSegura = () => {
 							},
 						}}
 					>
-						Lorem ipsum dolor sit amet consectetur. Orci massa orci diam orci
-						tellus. Lorem a praesent accumsan sed rhoncus elit.
+						Select the amount of KNRT you want to purchase, add $5 in matic for
+						network commissions, stripe will process the payment and you will
+						have the KNRT in your account, ready to collect NFTs.
 					</TypographyStyle>
 				</ContainerTextStyle>
 				<ContainerStyle></ContainerStyle>

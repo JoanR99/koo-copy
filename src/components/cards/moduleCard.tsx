@@ -13,7 +13,10 @@ export default function ModuleCard(props: ModuleCardProps) {
 			sx={{
 				padding: '24px',
 				bgcolor: '#C02327',
-				maxWidth: '400px',
+				maxWidth: {
+					xs: '100%',
+					md: '400px',
+				},
 			}}
 		>
 			<Stack spacing="16px">

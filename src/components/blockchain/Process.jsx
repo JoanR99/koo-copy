@@ -66,20 +66,21 @@ export default function Process() {
 							description="Meetings with stakeholders to gather detailed functional and non-functional requirements."
 						/>
 						<CardsProcess
-							title="Requirement Gathering"
-							description="Meetings with stakeholders to gather detailed functional and non-functional requirements."
+							title="Design and Architecture"
+							description="Creating comprehensive Blockchain architecture and defining data models, consensus mechanisms, and security protocols."
 						/>
 						<CardsProcess
-							title="Requirement Gathering"
-							description="Meetings with stakeholders to gather detailed functional and non-functional requirements."
+							title="Frontend & Backend 
+							Development"
+							description="Developing frontend and backend components of the Blockchain application."
 						/>
 						<CardsProcess
-							title="Requirement Gathering"
-							description="Meetings with stakeholders to gather detailed functional and non-functional requirements."
+							title="Security Testing"
+							description="Performing extensive security testing, including vulnerability assessments and penetration testing."
 						/>
 						<CardsProcess
-							title="Requirement Gathering"
-							description="Meetings with stakeholders to gather detailed functional and non-functional requirements."
+							title="User Acceptance Testing"
+							description="Inviting stakeholders and end-users to participate in UAT to validate the application's usability and effectiveness."
 						/>
 					</Box>
 					{!isMobile && (
@@ -112,23 +113,23 @@ export default function Process() {
 					>
 						<CardsProcess
 							title="Blockchain Platform Selection"
-							description="Meetings with stakeholders to gather detailed functional and non-functional requirements."
+							description="Evaluating Blockchain platforms (e.g., Ethereum, Hyperledger, etc.) based on project requirements."
 						/>
 						<CardsProcess
-							title="Blockchain Platform Selection"
-							description="Meetings with stakeholders to gather detailed functional and non-functional requirements."
+							title="Smart Contract Development"
+							description="Developing smart contracts to automate business logic and transactions."
 						/>
 						<CardsProcess
-							title="Blockchain Platform Selection"
-							description="Meetings with stakeholders to gather detailed functional and non-functional requirements."
+							title="Blockchain Integration"
+							description="Integrating the application with the Blockchain network by setting up nodes and connections."
 						/>
 						<CardsProcess
-							title="Blockchain Platform Selection"
-							description="Meetings with stakeholders to gather detailed functional and non-functional requirements."
+							title="Deployment"
+							description="Deploying the Blockchain application on the chosen network."
 						/>
 						<CardsProcess
-							title="Blockchain Platform Selection"
-							description="Meetings with stakeholders to gather detailed functional and non-functional requirements."
+							title="BLaunch and Maintenance"
+							description="Launching the Blockchain application and provide ongoing maintenance and support to address issues and implement updates."
 						/>
 					</Box>
 				</Box>
