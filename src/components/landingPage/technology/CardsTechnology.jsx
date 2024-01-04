@@ -9,7 +9,7 @@ import img8 from '@/assets/Img/tegImg8.png';
 import img9 from '@/assets/Img/tegImg9.png';
 import img10 from '@/assets/Img/tegImg10.png';
 import { Container, styled } from '@mui/material';
-import { IndividualCardTechnology } from '../individualCardTechnology/IndividualCardTechnology';
+import { IndividualCard } from '@/components/blockchain/cards/IndividualCard';
 
 export const CardsTechnology = () => {
 	const img = [
@@ -89,9 +89,7 @@ export const CardsTechnology = () => {
 		>
 			{img.map((image) => {
 				const { img, width, height } = image;
-				return (
-					<IndividualCardTechnology image={img} width={width} height={height} />
-				);
+				return <IndividualCard image={img} width={width} height={height} />;
 			})}
 		</ConteinerStyle>
 	);
