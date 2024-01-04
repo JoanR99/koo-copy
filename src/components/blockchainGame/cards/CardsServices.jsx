@@ -1,5 +1,5 @@
 import { Box, Typography, styled } from '@mui/material';
-import Shape from '@/assets/Img/svg/Vector.svg';
+import Shape from '@/assets/Img/svg/vector.svg';
 
 const ContainerRed = styled(Box)({
 	display: 'flex',
