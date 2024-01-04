@@ -9,7 +9,7 @@ import img8 from '@/assets/Img/tegImg8.png';
 import img9 from '@/assets/Img/tegImg9.png';
 import img10 from '@/assets/Img/tegImg10.png';
 import { Container, styled } from '@mui/material';
-import { IndividualCard } from '@/components/blockchain/cards/IndividualCard';
+import IndividualCard from '@/components/blockchain/cards/IndividualCard';
 
 export const CardsTechnology = () => {
 	const img = [
