@@ -40,7 +40,7 @@ export const IndividualCardTechnology = (props) => {
 	};
 	return (
 		<CardContent sx={cardContentStyle}>
-			<CardMedia image={image} sx={cardImageStyle} />
+			<CardMedia component="img" src={image} sx={cardImageStyle} />
 		</CardContent>
 	);
 };
