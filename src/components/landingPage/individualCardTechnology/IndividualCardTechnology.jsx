@@ -32,7 +32,6 @@ export const IndividualCardTechnology = (props) => {
 		boxShadow: '2px 20px 20px 0px rgba(0, 0, 0, 0.2)',
 	};
 	const cardImageStyle = {
-		component: { image },
 		// width: '5.0625rem',
 		// height: '5.0625rem'
 		width: Width,
